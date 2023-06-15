@@ -81,7 +81,7 @@ if(!empty($routesArray[4])){
 <!-- jQuery -->
 <script src="views/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="views/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="views/assets/plugins/js/bootstrap.bundle.min.js"></script>
 <!-- overlayScrollbars -->
 <script src="views/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
