@@ -1,3 +1,9 @@
+<?php ini_set("display_errors", 1);
+
+ini_set("display_startup_errors", 1);
+
+error_reporting(E_ALL);?>
+
 <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">

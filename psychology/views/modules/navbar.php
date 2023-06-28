@@ -1,3 +1,10 @@
+<?php ini_set("display_errors", 1);
+
+ini_set("display_startup_errors", 1);
+
+error_reporting(E_ALL);?>
+
+
 <nav class="main-header navbar navbar-expand navbar-lime navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">

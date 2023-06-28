@@ -1,6 +1,11 @@
-<aside class="main-sidebar sidebar-dark-lime elevation-4">
+<?php ini_set("display_errors", 1);
+
+ini_set("display_startup_errors", 1);
+
+error_reporting(E_ALL);?>
+<aside class="main-sidebar sidebar-dark-lime elevation-4"><!--  -->
     <!-- Brand Logo -->
-    <a href="/ArTeM02-038/PSYCOLOGY/psychology/" class="brand-link navbar-lime">
+    <a href="/SkylAb-159/PSYCOLOGY/psychology/" class="brand-link navbar-lime">
       <img src="views/assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">PSYCHOLOGY</span>
     </a>
@@ -27,7 +32,7 @@
                with font-awesome or any other icon font library -->
 
                <li class="nav-item">
-            <a href="/ArTeM02-038/PSYCOLOGY/psychology/" class="nav-link <?php if($routesArray[4]==""):?> active <?php endif?>">
+            <a href="/SkylAb-159/PSYCOLOGY/psychology/" class="nav-link <?php if($routesArray[4]==""):?> active <?php endif?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Home
@@ -38,7 +43,7 @@
 
 
             <li class="nav-item">
-            <a href="/ArTeM02-038/PSYCOLOGY/psychology/users" class="nav-link <?php if($routesArray[4]=="users"):?> active <?php endif?>">
+            <a href="/SkylAb-159/PSYCOLOGY/psychology/users" class="nav-link <?php if($routesArray[4]=="users"):?> active <?php endif?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Users
@@ -48,7 +53,7 @@
 
 
           <li class="nav-item">
-            <a href="/ArTeM02-038/PSYCOLOGY/psychology/clinicHistory" class="nav-link <?php if($routesArray[4]=="clinicHistory"):?> active <?php endif?>">
+            <a href="/SkylAb-159/PSYCOLOGY/psychology/clinicHistory" class="nav-link <?php if($routesArray[4]=="clinicHistory"):?> active <?php endif?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Clinic History
@@ -58,7 +63,7 @@
 
 
           <li class="nav-item">
-            <a href="/ArTeM02-038/PSYCOLOGY/psychology/interviews" class="nav-link <?php if($routesArray[4]=="interviews"):?> active <?php endif?>">
+            <a href="/SkylAb-159/PSYCOLOGY/psychology/interviews" class="nav-link <?php if($routesArray[4]=="interviews"):?> active <?php endif?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Interviews
@@ -68,7 +73,7 @@
 
 
           <li class="nav-item">
-            <a href="/ArTeM02-038/PSYCOLOGY/psychology/psychologists" class="nav-link <?php if($routesArray[4]=="psychologists"):?> active <?php endif?>">  
+            <a href="/SkylAb-159/PSYCOLOGY/psychology/psychologists" class="nav-link <?php if($routesArray[4]=="psychologists"):?> active <?php endif?>">  
               <i class="nav-icon far fa-user"></i>
               <p>
                 Psychologists
@@ -77,7 +82,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="/ArTeM02-038/PSYCOLOGY/psychology/treatmen" class="nav-link <?php if($routesArray[4]=="treatmen"):?> active <?php endif?>">
+            <a href="/SkylAb-159/PSYCOLOGY/psychology/treatmen" class="nav-link <?php if($routesArray[4]=="treatmen"):?> active <?php endif?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Treatmen

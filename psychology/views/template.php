@@ -48,16 +48,23 @@ $routesArray = array_filter($routesArray);
     <!-- Content Header (Page header) -->
 
 <?php
-/* echo "<pre>";
+echo "<pre>";
 print_r($routesArray);
-echo "<pre>"; */
+echo "<pre>";
+ini_set("display_errors", 1);
+
+ini_set("display_startup_errors", 1);
+
+error_reporting(E_ALL);
+
 if(!empty($routesArray[4])){
+
   if($routesArray[4]=="clinicHistory" ||
   $routesArray[4]=="interviews" ||
   $routesArray[4]=="psychologists" ||
   $routesArray[4]=="treatment" ||
   $routesArray[4]=="users") {
-    include "views/pages/".$routesArray[4]."/".$routesArray[4].".php ";
+    include "views/pages/".$routesArray[4]."/".$routesArray[4].".php";
   }
 }else{
   include "views/pages/home/home.php";  
